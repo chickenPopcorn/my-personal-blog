@@ -5,6 +5,7 @@ theme = "minimal"
 disqusShortname = "jimmyxie" # delete this to disable disqus comments
 googleAnalytics = ""
 publishDir = "docs"
+canonifyURLs = true
 
 
 [params]
@@ -17,7 +18,7 @@ publishDir = "docs"
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "Javascript"]
 
 [[menu.main]]
     url = "/"
