@@ -4,6 +4,7 @@ title = "Jimmy's Blog"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
+publishDir = "docs"
 
 [params]
     author = "Jimmy Xie"
