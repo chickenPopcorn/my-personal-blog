@@ -5,6 +5,7 @@ theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 publishDir = "docs"
+baseurl = "https://chickenpopcorn.github.io/my-personal-blog/"
 
 [params]
     author = "Jimmy Xie"
