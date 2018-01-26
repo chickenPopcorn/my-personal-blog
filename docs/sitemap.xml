@@ -3,48 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.com/project/project1/</loc>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/project/project1/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/post/first-post/</loc>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/post/first-post/</loc>
     <lastmod>2018-01-25T21:47:32-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/tags/bootstrap/</loc>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/tags/bootstrap/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/</loc>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/</loc>
-    <lastmod>2018-01-25T21:47:32-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/post/</loc>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/</loc>
     <lastmod>2018-01-25T21:47:32-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/project/</loc>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/post/</loc>
+    <lastmod>2018-01-25T21:47:32-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/responsive/</loc>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/project/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/</loc>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/tags/responsive/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/tags/</loc>
     <priority>0</priority>
   </url>
   
