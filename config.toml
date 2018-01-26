@@ -2,7 +2,7 @@ baseURL = "https://chickenpopcorn.github.io/my-personal-blog/"
 languageCode = "en-us"
 title = "Jimmy's Blog"
 theme = "minimal"
-disqusShortname = "username" # delete this to disable disqus comments
+disqusShortname = "jimmyxie" # delete this to disable disqus comments
 googleAnalytics = ""
 publishDir = "docs"
 
@@ -39,22 +39,22 @@ publishDir = "docs"
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "mailto:rxie25@gmail.com"
     name = "envelope-o"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/chickenPopcorn/"
     name = "github"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/username/"
+    url = "https://twitter.com/rxie25/"
     name = "twitter"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
+    url = "https://www.linkedin.com/in/jimmy-ruicong-xie-8b307929/"
     name = "linkedin"
     weight = 4
 
