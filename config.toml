@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Jimmy's Blog"
 theme = "minimal"
 disqusShortname = "jimmyxie" # delete this to disable disqus comments
-googleAnalytics = ""
+googleAnalytics = "UA-97195605-1"
 publishDir = "docs"
 canonifyURLs = true
 
