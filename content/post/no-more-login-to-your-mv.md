@@ -5,7 +5,7 @@ tags: ["linux command"]
 draft: false
 ---
 
-# SSH Your VM
+#### SSH Your VM
 
 While working as software engineer, something I have grown tired of is to log into my virtual machine few times a day. It's not a cumbersome process to add SSH key, but some of my coworkers ignored as well. Below are two commands that will speed up your life every day by a tiny bit.
 
