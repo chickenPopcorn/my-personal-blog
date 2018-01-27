@@ -6,17 +6,18 @@
     <description>Recent content in Responsive on Jimmy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jan 2018 21:47:32 -0500</lastBuildDate>
     
 	<atom:link href="https://chickenpopcorn.github.io/my-personal-blog/tags/responsive/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Project 1</title>
-      <link>https://chickenpopcorn.github.io/my-personal-blog/project/project1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>My First Post</title>
+      <link>https://chickenpopcorn.github.io/my-personal-blog/post/first-post/</link>
+      <pubDate>Thu, 25 Jan 2018 21:47:32 -0500</pubDate>
       
-      <guid>https://chickenpopcorn.github.io/my-personal-blog/project/project1/</guid>
-      <description></description>
+      <guid>https://chickenpopcorn.github.io/my-personal-blog/post/first-post/</guid>
+      <description>Hello! Welcome to my new blog! This is a test run on Go Hugo static site generator. Please come back some other time when I&amp;rsquo;ve written something worth your time.</description>
     </item>
     
   </channel>

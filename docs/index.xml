@@ -6,7 +6,7 @@
     <description>Recent content on Jimmy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jan 2018 21:47:32 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2018 21:24:26 -0500</lastBuildDate>
     
 	<atom:link href="https://chickenpopcorn.github.io/my-personal-blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,12 +21,22 @@
     </item>
     
     <item>
-      <title>First Post</title>
+      <title>No More Login to Your Mv</title>
+      <link>https://chickenpopcorn.github.io/my-personal-blog/post/no-more-login-to-your-mv/</link>
+      <pubDate>Fri, 26 Jan 2018 21:24:26 -0500</pubDate>
+      
+      <guid>https://chickenpopcorn.github.io/my-personal-blog/post/no-more-login-to-your-mv/</guid>
+      <description>SSH Your VM While working as software engineer, something I have grown tired of is to log into my virtual machine few times a day. It&amp;rsquo;s not a cumbersome process to add SSH key, but some of my coworkers ignored as well. Below are two commands that will speed up your life every day by a tiny bit.
+cat ~/.ssh/id_rsa.pub | ssh &amp;lt;user&amp;gt;@&amp;lt;hostname&amp;gt; &#39;umask 0077; mkdir -p .ssh; cat &amp;gt;&amp;gt; .</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
       <link>https://chickenpopcorn.github.io/my-personal-blog/post/first-post/</link>
       <pubDate>Thu, 25 Jan 2018 21:47:32 -0500</pubDate>
       
       <guid>https://chickenpopcorn.github.io/my-personal-blog/post/first-post/</guid>
-      <description>Hello! Welcome to my new blog! Please come back some other time when I&amp;rsquo;ve written somethingworth your time.</description>
+      <description>Hello! Welcome to my new blog! This is a test run on Go Hugo static site generator. Please come back some other time when I&amp;rsquo;ve written something worth your time.</description>
     </item>
     
   </channel>

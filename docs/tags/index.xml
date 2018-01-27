@@ -6,25 +6,35 @@
     <description>Recent content in Tags on Jimmy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jan 2018 21:24:26 -0500</lastBuildDate>
     
 	<atom:link href="https://chickenpopcorn.github.io/my-personal-blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bootstrap</title>
-      <link>https://chickenpopcorn.github.io/my-personal-blog/tags/bootstrap/</link>
+      <title>Hugo</title>
+      <link>https://chickenpopcorn.github.io/my-personal-blog/tags/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chickenpopcorn.github.io/my-personal-blog/tags/bootstrap/</guid>
+      <guid>https://chickenpopcorn.github.io/my-personal-blog/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Responsive</title>
-      <link>https://chickenpopcorn.github.io/my-personal-blog/tags/responsive/</link>
+      <title>Linux Command</title>
+      <link>https://chickenpopcorn.github.io/my-personal-blog/tags/linux-command/</link>
+      <pubDate>Fri, 26 Jan 2018 21:24:26 -0500</pubDate>
+      
+      <guid>https://chickenpopcorn.github.io/my-personal-blog/tags/linux-command/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Site Generator</title>
+      <link>https://chickenpopcorn.github.io/my-personal-blog/tags/static-site-generator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chickenpopcorn.github.io/my-personal-blog/tags/responsive/</guid>
+      <guid>https://chickenpopcorn.github.io/my-personal-blog/tags/static-site-generator/</guid>
       <description></description>
     </item>
     

@@ -10,7 +10,7 @@ canonifyURLs = true
 
 [params]
     author = "Jimmy Xie"
-    description = "Jimmy's Personal Website"
+    description = "This is my personal website and blog"
     githubUsername = "chickenPopcorn"
     accent = "grey"
     showBorder = true
@@ -18,7 +18,7 @@ canonifyURLs = true
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "Javascript"]
+    highlightLanguages = ["go", "php", "css", "javascript"]
 
 [[menu.main]]
     url = "/"
