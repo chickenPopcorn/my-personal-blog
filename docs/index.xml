@@ -26,8 +26,8 @@
       <pubDate>Sun, 04 Feb 2018 23:58:50 -0500</pubDate>
       
       <guid>https://chickenpopcorn.github.io/my-personal-blog/post/golang-array-slice-basic/</guid>
-      <description>Basics in Go Array There two types of array like data structure in go, array and slice. Array is a value type structure with fix length. See Example Below
-package main import &amp;quot;fmt&amp;quot; func main() { // Example 1: basic syntax var arr1 [5]int arr2 := [3]int{1, 3, 5} arr3 := [...]int{2, 4} fmt.Println(arr1, arr2, arr3) var grid [4][5]int fmt.Println(grid) // Prints out // [0 0 0 0 0] [1 3 5] [2 4] // [[0 0 0 0 0] [0 0 0 0 0] [0 0 0 0 0] [0 0 0 0 0]] }  What&amp;rsquo;s more interesting is array is a value type structure with fix length.</description>
+      <description>Basics in Go Array There two types of array like data structure in go, array and slice. Array is a value type structure with fix length. Zero value for array is zero. See Example Below
+package main import &amp;quot;fmt&amp;quot; func main() { // Example 1: basic syntax var arr1 [5]int // Zero value for array is zero arr2 := [3]int{1, 3, 5} arr3 := [...]int{2, 4} fmt.Println(arr1, arr2, arr3) var grid [4][5]int fmt.</description>
     </item>
     
     <item>

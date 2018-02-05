@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go on Jimmy&#39;s Blog</title>
-    <link>https://chickenpopcorn.github.io/my-personal-blog/tags/go/</link>
-    <description>Recent content in Go on Jimmy&#39;s Blog</description>
+    <title>Slice on Jimmy&#39;s Blog</title>
+    <link>https://chickenpopcorn.github.io/my-personal-blog/tags/slice/</link>
+    <description>Recent content in Slice on Jimmy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Feb 2018 23:58:50 -0500</lastBuildDate>
     
-	<atom:link href="https://chickenpopcorn.github.io/my-personal-blog/tags/go/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chickenpopcorn.github.io/my-personal-blog/tags/slice/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
