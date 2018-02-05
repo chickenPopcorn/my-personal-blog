@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Basic</title>
+        <title>Golang Array Basics 1</title>
         <style>
 
     html body {
@@ -60,9 +60,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.32.4" />
         
-        <link href="https://chickenpopcorn.github.io/my-personal-blog/tags/basic/index.xml" rel="alternate" type="application/rss+xml" title="Jimmy&#39;s Blog" />
-        <link href="https://chickenpopcorn.github.io/my-personal-blog/tags/basic/index.xml" rel="feed" type="application/rss+xml" title="Jimmy&#39;s Blog" />
-        
         
         
         
@@ -90,7 +87,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Basic</a>
+                    <a class="navbar-brand visible-xs" href="#">Golang Array Basics 1</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -139,9 +136,7 @@
 
 <main>
 
-    <h2>Basic</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -161,11 +156,121 @@
     
 
 </div>
- 
+
+
+    <br> <div class="text-justify">
+
+<h4 id="basics-in-go-array-and-slice">Basics in Go Array and Slice</h4>
+
+<p>There two types of array like data structure in go, array and slice. Array is a <strong>value type</strong> structure with fix length. See Example Below</p>
+
+<pre><code class="language-go">package main
+
+import &quot;fmt&quot;
+
+func main() {
+    // Example 1: basic syntax
+    var arr1 [5]int
+    arr2 := [3]int{1, 3, 5}
+    arr3 := [...]int{2, 4}
+    fmt.Println(arr1, arr2, arr3)
+    var grid [4][5]int
+    fmt.Println(grid)
+    // Prints out
+    // [0 0 0 0 0] [1 3 5] [2 4]
+    // [[0 0 0 0 0] [0 0 0 0 0] [0 0 0 0 0] [0 0 0 0 0]]
+}
+</code></pre>
+
+<p>What&rsquo;s more interesting is array is a <strong>value type</strong> structure with fix length. Different length of arrays, even with same data type, are considered different types of variables(<strong>see example 2.1</strong>). On the other hand variables are past by value in go, which means the contain of an array past in as a parameter, can&rsquo;t be changed from another function. See example below.</p>
+
+<pre><code class="language-go">package main
+
+import &quot;fmt&quot;
+
+func main() {
+    // arr2 := [3]int{1, 3, 5}
+    arr3 := [...]int{2, 4}
+
+    // Example 2.1: array is a value type
+    // printArray(arr2)
+    // error, cant use [3]int as type [2]int
+    // [3]int and [2]int are two different data type in go
+
+    // Example 2.2: array is a value type
+    mutateArray(arr3)
+    fmt.Println(arr3[0])
+    // prints 2
+    //arr3[0] is not changed
+}
+
+func mutateArray(arr [2]int) {
+    arr[0] = 100
+    // only change arr inside the function
+}
+</code></pre>
+
+<p>What we can do in this is case is past in pointer to the array. Remember go converts pointer to variable automatically, so no need to use *arr[0] inside the <code>mutateArrayPtr</code> function.</p>
+
+<pre><code class="language-go">package main
+
+import &quot;fmt&quot;
+
+func main() {
+    // arr2 := [3]int{1, 3, 5}
+    arr3 := [...]int{2, 4}
+
+    // Example 2.1: array is a value type
+    // printArray(arr2)
+    // error, cant use [3]int as type [2]int
+    // [3]int and [2]int are two different data type in go
+
+    // Example 2.2: array is a value type
+    mutateArrayPtr(&amp;arr3)
+    fmt.Println(arr3[0])
+    // prints 2
+    //arr3[0] is not changed
+}
+
+func mutateArrayPtr(arr *[2]int) {
+    arr[0] = 100
+}
+</code></pre>
+</div>
+
+    
+    
+
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jimmyxie" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
 
 </main>
-
-
 
         <footer>
 
