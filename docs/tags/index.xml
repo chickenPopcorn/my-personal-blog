@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Jimmy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jan 2018 21:24:26 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 04 Feb 2018 23:58:50 -0500</lastBuildDate>
     
 	<atom:link href="https://chickenpopcorn.github.io/my-personal-blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Basic</title>
+      <link>https://chickenpopcorn.github.io/my-personal-blog/tags/basic/</link>
+      <pubDate>Sun, 04 Feb 2018 23:58:50 -0500</pubDate>
+      
+      <guid>https://chickenpopcorn.github.io/my-personal-blog/tags/basic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Structure</title>
+      <link>https://chickenpopcorn.github.io/my-personal-blog/tags/data-structure/</link>
+      <pubDate>Sun, 04 Feb 2018 23:58:50 -0500</pubDate>
+      
+      <guid>https://chickenpopcorn.github.io/my-personal-blog/tags/data-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://chickenpopcorn.github.io/my-personal-blog/tags/go/</link>
+      <pubDate>Sun, 04 Feb 2018 23:58:50 -0500</pubDate>
+      
+      <guid>https://chickenpopcorn.github.io/my-personal-blog/tags/go/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hugo</title>
