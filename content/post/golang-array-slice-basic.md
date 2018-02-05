@@ -1,11 +1,11 @@
 ---
-title: "Golang Array Basics 1"
+title: "Golang Array and Slice Basics"
 date: 2018-02-04T23:58:50-05:00
 draft: false
-tags: ["go", "data structure", basic]
+tags: ["go", "data structure", "array", "basic"]
 ---
 
-#### Basics in Go Array and Slice
+#### Basics in Go Array
 
 There two types of array like data structure in go, array and slice. Array is a **value type** structure with fix length. See Example Below
 
@@ -84,3 +84,52 @@ func mutateArrayPtr(arr *[2]int) {
     arr[0] = 100
 }
 ```
+
+#### Basics in Go Slice
+
+Slice presents view of underlying array
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    // Example 1: basic syntax
+    arr1 := [...]int{0, 1, 2, 3, 4}
+    arr2 := arr1[:]
+    fmt.Println(arr1, arr2)
+
+    // Example 2: slices is a view of underlying array
+    muteSlice(arr2)
+    fmt.Println(arr2)
+    // print [100 1 2 3 4]
+}
+
+func muteSlice(arr []int) {
+    arr[0] = 100
+}
+```
+
+Slice extension, slide length vs capacity.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    // Example 1: extending slice
+    arr1 := [...]int{0, 1, 2, 3, 4, 5, 6, 7}
+    arr2 := arr1[1:2]
+    arr3 := arr2[3:4]
+    fmt.Println(arr2, arr3)
+    // [0 1 2] [3 4]
+    fmt.Printf("arr2=%v, len(arr2)=%d, cap(arr2)=%d", arr2, len(arr2), cap(arr2))
+    // arr2=[1], len(arr2)=1, cap(arr2)=7
+}
+```
+
+Here is a graphical representation of slice
+
+![slice graphical representation](https://github.com/chickenPopcorn/my-personal-blog/blob/master/static/images/slice.png)
