@@ -132,4 +132,4 @@ func main() {
 
 Here is a graphical representation of slice
 
-![slice graphical representation](https://github.com/chickenPopcorn/my-personal-blog/blob/master/static/images/slice.png)
+![slice graphical representation](https://raw.githubusercontent.com/chickenPopcorn/my-personal-blog/master/static/images/slice.png)
