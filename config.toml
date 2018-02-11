@@ -12,13 +12,13 @@ canonifyURLs = true
     author = "Jimmy Xie"
     description = "This is my personal website and blog"
     githubUsername = "chickenPopcorn"
-    accent = "grey"
+    accent = "Gray"
     showBorder = true
-    backgroundColor = "white"
+    backgroundColor = "WhiteSmoke"
     font = "Roboto" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "atom-one-dark"
-    highlightLanguages = ["go", "php", "css", "javascript"]
+    highlightLanguages = ["go", "php", "css", "javascript", "html"]
 
 [[menu.main]]
     url = "/"
@@ -60,6 +60,6 @@ canonifyURLs = true
     weight = 4
 
 [[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
+    url = "https://stackoverflow.com/users/7120964/ruicong-xie?tab=profile"
     name = "stack-overflow"
     weight = 5
