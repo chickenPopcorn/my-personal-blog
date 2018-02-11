@@ -15,9 +15,9 @@ canonifyURLs = true
     accent = "grey"
     showBorder = true
     backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
+    font = "Roboto" # should match the name on Google Fonts!
     highlight = true
-    highlightStyle = "solarized-dark"
+    highlightStyle = "atom-one-dark"
     highlightLanguages = ["go", "php", "css", "javascript"]
 
 [[menu.main]]
