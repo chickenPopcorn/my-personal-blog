@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/project/materialize-travel/</loc>
+    <lastmod>2018-02-23T01:59:47-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chickenpopcorn.github.io/my-personal-blog/post/intellij-idea-shortcut/</loc>
     <lastmod>2018-02-11T17:03:16-05:00</lastmod>
   </url>
@@ -43,8 +48,26 @@
   </url>
   
   <url>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/tags/css/</loc>
+    <lastmod>2018-02-23T01:59:47-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/tags/css-framework/</loc>
+    <lastmod>2018-02-23T01:59:47-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chickenpopcorn.github.io/my-personal-blog/tags/data-structure/</loc>
     <lastmod>2018-02-04T23:58:50-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/tags/frontend/</loc>
+    <lastmod>2018-02-23T01:59:47-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -73,13 +96,19 @@
   
   <url>
     <loc>https://chickenpopcorn.github.io/my-personal-blog/</loc>
-    <lastmod>2018-02-11T17:03:16-05:00</lastmod>
+    <lastmod>2018-02-23T01:59:47-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://chickenpopcorn.github.io/my-personal-blog/tags/linux-command/</loc>
     <lastmod>2018-01-26T21:24:26-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chickenpopcorn.github.io/my-personal-blog/tags/materialize/</loc>
+    <lastmod>2018-02-23T01:59:47-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -91,6 +120,7 @@
   
   <url>
     <loc>https://chickenpopcorn.github.io/my-personal-blog/project/</loc>
+    <lastmod>2018-02-23T01:59:47-05:00</lastmod>
     <priority>0</priority>
   </url>
   
