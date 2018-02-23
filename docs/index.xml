@@ -26,10 +26,7 @@
       <pubDate>Sun, 11 Feb 2018 17:03:16 -0500</pubDate>
       
       <guid>https://chickenpopcorn.github.io/my-personal-blog/post/intellij-idea-shortcut/</guid>
-      <description>Creating Shortcut To create short cut in terminal for IDEA, simply download the idea script and install in your local user bin folder.
-Run the following command to download and add execution permission.
-curl -L &amp;quot;https://gist.githubusercontent.com/chickenPopcorn/f0377dd891a81b06aeb9c79f4cf3a6af/raw/334bcdb0e38dcc7bb678e6a0c42074b517927d9d/idea&amp;quot; -o /usr/local/bin/idea chmod +x /usr/local/bin/idea  You may have to update the script on where idea is installed.
-IDEA= &#39;ls -1d ~/Library/Application\ Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/173.4548.28/IntelliJ\ IDEA.app/ | tail -n1&#39;`  Now you can use idea .</description>
+      <description>Overview I recently moved to Intellij Idea as my IDE for development. It&amp;rsquo;s simple to use and feature packed. The only downsides are it&amp;rsquo;s expensive, and it may take a little bit of time to start up. That&amp;rsquo;s said, there is a learning curve as with migrating to any new IDE. There post goes through some of th basics on how to use Intellij Idea more effective to boost your daily productivity.</description>
     </item>
     
     <item>
