@@ -5,6 +5,6 @@ tags: ["materialize", "css-framework", "css", "frontend"]
 draft: false
 ---
 
-Materialize CSS
+Materialize Travel Booking
 [Live Demo](https://chickenpopcorn.github.io/travel/)
 

@@ -6,10 +6,19 @@
     <description>Recent content in Materialize on Jimmy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Feb 2018 01:59:47 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2018 15:41:55 -0500</lastBuildDate>
     
 	<atom:link href="https://chickenpopcorn.github.io/my-personal-blog/tags/materialize/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Materialize Heroku</title>
+      <link>https://chickenpopcorn.github.io/my-personal-blog/project/materialize-heroku/</link>
+      <pubDate>Sat, 24 Feb 2018 15:41:55 -0500</pubDate>
+      
+      <guid>https://chickenpopcorn.github.io/my-personal-blog/project/materialize-heroku/</guid>
+      <description>Materialize Heroku Homepage Live Demo</description>
+    </item>
     
     <item>
       <title>Materialize Travel</title>
@@ -17,7 +26,7 @@
       <pubDate>Fri, 23 Feb 2018 01:59:47 -0500</pubDate>
       
       <guid>https://chickenpopcorn.github.io/my-personal-blog/project/materialize-travel/</guid>
-      <description>Materialize CSS Live Demo</description>
+      <description>Materialize Travel Booking Live Demo</description>
     </item>
     
   </channel>
