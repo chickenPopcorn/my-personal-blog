@@ -1,7 +1,7 @@
 ---
 title: "Materialize Heroku"
 date: 2018-02-24T15:41:55-05:00
-tags: ["materialize", "css-framework", "css", "frontend"]
+tags: ["css", "css-framework", "materialize", "static site"]
 draft: false
 ---
 
